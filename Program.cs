@@ -13,6 +13,8 @@ namespace programando_en_remoto
             //llamada a la funcion suma
 
             int resultado = Suma(2, 3);
+            //Damos color verte  al resultado
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"El resultado de la suma es {resultado}");
 
           // ___________________________________________________________________
@@ -28,6 +30,8 @@ namespace programando_en_remoto
         //funcion saludar
         static void Saludar( string name)
         {
+            //Damos color rojo al saludo
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"Hola {name}");
         }
 
