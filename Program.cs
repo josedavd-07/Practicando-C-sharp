@@ -24,6 +24,8 @@ namespace programando_en_remoto
             Saludar(Console.ReadLine());
 
             // ___________________________________________________________________
+            
+            Console.ReadKey();
         }
 
 
