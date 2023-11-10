@@ -10,6 +10,9 @@ namespace programando_en_remoto
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
+
             //llamada a la funcion suma
 
             int resultado = Suma(2, 3);
@@ -17,13 +20,18 @@ namespace programando_en_remoto
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"El resultado de la suma es {resultado}");
 
-          // ___________________________________________________________________
+            // ___________________________________________________________________
 
 
             //llamada a la funcion saludar
+            Console.Write("\n");
+            Console.WriteLine("¿Como te llamas?");
             Saludar(Console.ReadLine());
 
             // ___________________________________________________________________
+
+            //llamada a la funcion usarEmojis
+            usarEmojis();
             
             Console.ReadKey();
         }
@@ -42,6 +50,17 @@ namespace programando_en_remoto
         {
             return a + b;
         }
-    }
 
+        static void usarEmojis()
+        {
+
+            //Damos color azul al emoji
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("👍");
+
+            Console.WriteLine("👍");
+
+            Console.WriteLine("👍");
+        }
+    }
 }
