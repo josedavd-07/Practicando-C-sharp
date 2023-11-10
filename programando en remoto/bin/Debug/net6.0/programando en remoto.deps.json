@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "programando en remoto/1.0.0": {
+        "runtime": {
+          "programando en remoto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "programando en remoto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
